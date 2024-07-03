@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+<style>
+    h1 {
+        margin-top: 10px; 
+    }
+</style>
+{% block content %}
+    
+        <h1 class="mb-10">Oops. page not found error (404)</h1>
+        <h4 class="mt-3">That page does not exist.</h4>
+        <a class="info mt-5" href="{{url_for('main.home')}}">Return to home page</a>
+    
+
+{% endblock content %}
