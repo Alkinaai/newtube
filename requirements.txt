@@ -21,7 +21,6 @@ Mail==2.1.0
 MarkupSafe==2.1.5
 pillow==10.4.0
 python-dotenv==1.0.1
-requests==2.32.3
 SQLAlchemy==2.0.31
 typing_extensions==4.12.2
 urllib3==2.2.2
